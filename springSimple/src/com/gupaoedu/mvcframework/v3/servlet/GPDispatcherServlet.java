@@ -18,6 +18,9 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ * 版本3
+ */
 public class GPDispatcherServlet extends HttpServlet {
     //保存 application.properties配置文件中的内容
     private Properties contextConfig = new Properties();
